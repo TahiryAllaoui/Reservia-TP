@@ -6,7 +6,7 @@
     <div class="hotels">
       <?php foreach ($hotels as $hotel) : ?>
         <?php if (!($hotel->isPopular)) { ?>
-          <div class="card">
+          <a href="#" class="card">
             <img src=<?php echo "./assets/images/hebergements/medium/" . $hotel->image ?> alt=<?php echo $hotel->name ?>>
             <h4><?php echo $hotel->name ?></h4>
             <p>Nuit a partir de <?php echo $hotel->price . "$" ?></p>
@@ -23,7 +23,7 @@
                 <?php } ?>
               <?php } ?>
             </div>
-          </div>
+          </a>
         <?php } ?>
       <?php endforeach ?>
     </div>
@@ -39,7 +39,7 @@
     <div class="popular-hotels">
       <?php foreach ($hotels as $hotel) : ?>
         <?php if ($hotel->isPopular) { ?>
-          <div class="side-card">
+          <a href="#" class="side-card">
             <img src=<?php echo "./assets/images/hebergements/small/" . $hotel->image ?> alt=<?php echo $hotel->name ?>>
             <div class="side-note">
               <h4><?php echo $hotel->name ?></h4>
@@ -58,7 +58,7 @@
                 <?php } ?>
               </div>
             </div>
-          </div>
+          </a>
         <?php } ?>
       <?php endforeach ?>
     </div>
