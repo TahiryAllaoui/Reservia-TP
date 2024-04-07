@@ -1,4 +1,3 @@
-<?php require('../back/datas.php'); ?>
 <!DOCTYPE html>
 <html lang="en">
 
