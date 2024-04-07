@@ -38,7 +38,7 @@ nav > svg {
   height: 3rem;
   display: flex;
   align-items: center;
-  transition: color 200ms, border 200ms;
+  transition: color 300ms, border 300ms;
   border-top: 2px solid transparent;
 }
 .anchor > a:not(:last-child):hover {
@@ -54,4 +54,91 @@ nav > svg {
   text-decoration: none;
   display: flex;
   align-items: center;
+}
+
+/* For Search */
+.search-filter {
+  display: flex;
+  flex-direction: column;
+}
+.search-input {
+  display: flex;
+  height: 2rem;
+  width: fit-content;
+  border-radius: 8px;
+}
+.location {
+  background-color: #f2f2f2;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.location > svg {
+  width: 0.7rem;
+}
+.search-input > input {
+  border: none;
+  border-top: 1px solid #f2f2f2;
+  border-bottom: 1px solid #f2f2f2;
+  padding-left: 1rem;
+  outline: none;
+}
+.search-input > button {
+  border: none;
+  outline: none;
+  background-color: #0065fc;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  color: #f2f2f2;
+  cursor: pointer;
+}
+.filter-container {
+  height: 2rem;
+  display: flex;
+  width: 60%;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 2rem;
+}
+.filter-container > h4 {
+  margin: 0;
+  padding: 0;
+}
+.items {
+  display: flex;
+  gap: 2rem;
+  width: 100%;
+}
+.items > .filter-item {
+  display: flex;
+  align-items: center;
+  border-radius: 5rem;
+  border: 1px solid #deebff;
+  width: auto;
+  height: 2rem;
+  cursor: pointer;
+}
+.items > .filter-item > .svgs {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #deebff;
+}
+.items > .filter-item > .svgs > svg {
+  width: 1rem;
+}
+.items > .filter-item > .svgs > svg > path {
+  fill: #0065fc;
+}
+.items > .filter-item > p {
+  font-size: small;
+  padding: 0 1rem;
+  font-family: "Raleway-bold";
 }
