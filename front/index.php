@@ -13,6 +13,7 @@
     <?php require('./components/searchFilter.php'); ?>
     <?php require('./components/hebergement.php'); ?>
     <?php require('./components/activities.php'); ?>
+    <?php require('./components/footer.php'); ?>
 </body>
 
 </html>

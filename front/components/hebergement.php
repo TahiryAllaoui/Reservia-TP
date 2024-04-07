@@ -27,7 +27,7 @@
         <?php } ?>
       <?php endforeach ?>
     </div>
-    <h4>Afficher plus</h4>
+    <h4 style="cursor: pointer;">Afficher plus</h4>
   </div>
   <div id="side-article">
     <h3>
@@ -43,7 +43,7 @@
             <img src=<?php echo "./assets/images/hebergements/small/" . $hotel->image ?> alt=<?php echo $hotel->name ?>>
             <div class="side-note">
               <h4><?php echo $hotel->name ?></h4>
-              <p>Nuit a partir de <?php echo $hotel->price . "$" ?></p>
+              <p>Nuit a partir de <strong><?php echo $hotel->price . "$" ?></strong></p>
               <div class="note">
                 <?php for ($i = 1; $i <= 5; $i++) { ?>
                   <?php if ($i <= $hotel->note) { ?>
