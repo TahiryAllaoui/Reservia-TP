@@ -9,7 +9,7 @@
           <a href="#" class="card">
             <img src=<?php echo "./assets/images/hebergements/medium/" . $hotel->image ?> alt=<?php echo $hotel->name ?>>
             <h4><?php echo $hotel->name ?></h4>
-            <p>Nuit a partir de <?php echo $hotel->price . "$" ?></p>
+            <p>Nuit a partir de <strong><?php echo $hotel->price . "$" ?></strong></p>
             <div class="note">
               <?php for ($i = 1; $i <= 5; $i++) { ?>
                 <?php if ($i <= $hotel->note) { ?>
