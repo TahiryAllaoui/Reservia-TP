@@ -359,3 +359,26 @@ p {
 .activity-item > .activity-card-duo > .image-1 > h4 {
   margin: 0.2rem 0 0 0.5rem;
 }
+
+/* For teh footer */
+#foot {
+  margin: 5rem 0 0 0;
+  padding: 0rem 3rem;
+  display: flex;
+  justify-content: space-between;
+  background-color: #f2f2f2;
+}
+
+#foot > .lists {
+  width: 30%;
+  height: 15rem;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 0 0 5rem;
+}
+
+.lists > a {
+  text-decoration: none;
+  color: #5f5f5f;
+  line-height: 2rem;
+}
