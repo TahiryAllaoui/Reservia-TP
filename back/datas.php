@@ -15,6 +15,18 @@ class Hotel
       $this->image = $image;
    }
 }
+class Activities
+{
+   public $name;
+   public $image;
+
+   public function
+   __construct($name, $image)
+   {
+      $this->name = $name;
+      $this->image = $image;
+   }
+}
 
 $hotels = array();
 $hotels[] = new Hotel('Auberge la Cannebiere', 25, 4, 'marcus-loke-WQJvWU_HZFo-unsplash.jpg');
@@ -26,3 +38,11 @@ $hotels[] = new Hotel('Hotel chez Amina', 96, 5, 'febrian-zakaria-M6S1WvfW68A-un
 $hotels[] = new Hotel('Hotel Le soleil du matin', 128, 5, 'emile-guillemot-Bj_rcSC5XfE-unsplash.jpg');
 $hotels[] = new Hotel("Au coeur de l'eau Chambres d'hotel", 71, 4, 'aw-creative-VGs8z60yT2c-unsplash.jpg');
 $hotels[] = new Hotel('Hotel Tout bleu et Blanc', 68, 4, 'febrian-zakaria-sjvU0THccQA-unsplash.jpg');
+
+$activites = array();
+$activites[] = new Activities('Vieux Port', 'reno-laithienne-QUgJhdY5Fyk-unsplash.jpg');
+$activites[] = new Activities('Fort de Pomegues', 'paul-hermann-QFTrLdQIRhI-unsplash.jpg');
+$activites[] = new Activities('Iles du Frioul', 'kevin-hikari-rV_Qd1l-VXg-unsplash.jpg');
+$activites[] = new Activities('Parc National des Calanques', 'kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg');
+$activites[] = new Activities('Notre-Dame-de-la-Garde', 'florian-wehde-xW9e8gdotxI-unsplash.jpg');
+$activites[] = new Activities('Parc Longchamp', 'lena-paulin-wH2-EJoDcV0-unsplash.jpg');

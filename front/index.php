@@ -1,3 +1,4 @@
+<?php require('../back/datas.php'); ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -11,7 +12,7 @@
 <body>
     <?php require('./components/navbar.php'); ?>
     <?php require('./components/searchFilter.php'); ?>
-    <?php require('../back/datas.php'); ?>
+
 </body>
 
 </html>
