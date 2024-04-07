@@ -1,4 +1,4 @@
-<?php require('../../back/hebergementData.php') ?>
+<?php require('../back/hebergementData.php') ?>
 
 <div id="hebergement">
   <div id="main-article">
@@ -7,7 +7,7 @@
       <?php foreach ($hotels as $hotel) : ?>
         <?php if (!($hotel->isPopular)) { ?>
           <div class="card">
-            <img src=<?php echo "../assets/images/hebergements/medium/" . $hotel->image ?> alt=<?php echo $hotel->name ?>>
+            <img src=<?php echo "./assets/images/hebergements/medium/" . $hotel->image ?> alt=<?php echo $hotel->name ?>>
             <h4><?php echo $hotel->name ?></h4>
             <p>Nuit a partir de <?php echo $hotel->price . "$" ?></p>
             <div class="note">
@@ -40,7 +40,7 @@
       <?php foreach ($hotels as $hotel) : ?>
         <?php if ($hotel->isPopular) { ?>
           <div class="side-card">
-            <img src=<?php echo "../assets/images/hebergements/small/" . $hotel->image ?> alt=<?php echo $hotel->name ?>>
+            <img src=<?php echo "./assets/images/hebergements/small/" . $hotel->image ?> alt=<?php echo $hotel->name ?>>
             <div class="side-note">
               <h4><?php echo $hotel->name ?></h4>
               <p>Nuit a partir de <?php echo $hotel->price . "$" ?></p>

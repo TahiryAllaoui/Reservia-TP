@@ -11,7 +11,7 @@
 <body>
     <?php require('./components/navbar.php'); ?>
     <?php require('./components/searchFilter.php'); ?>
-
+    <?php require('./components/hebergement.php'); ?>
 </body>
 
 </html>
