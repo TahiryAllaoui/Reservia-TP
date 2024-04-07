@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../assets/style/style.css">
+    <link rel="stylesheet" href="./assets/style/style.css">
     <title>Reservia</title>
 </head>
 
@@ -12,6 +12,7 @@
     <?php require('./components/navbar.php'); ?>
     <?php require('./components/searchFilter.php'); ?>
     <?php require('./components/hebergement.php'); ?>
+    <?php require('./components/activities.php'); ?>
 </body>
 
 </html>

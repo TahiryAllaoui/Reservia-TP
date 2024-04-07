@@ -2,7 +2,7 @@
 
 <div id="hebergement">
   <div id="main-article">
-    <h3>Hebergements a Marseille</h3>
+    <h2>Hebergements a Marseille</h2>
     <div class="hotels">
       <?php foreach ($hotels as $hotel) : ?>
         <?php if (!($hotel->isPopular)) { ?>
