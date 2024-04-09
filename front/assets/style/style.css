@@ -127,6 +127,7 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
+  font-family: "raleway-bold";
 }
 .location > svg {
   width: 0.7rem;
