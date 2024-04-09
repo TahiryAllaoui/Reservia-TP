@@ -55,6 +55,7 @@ nav > svg {
   display: flex;
   color: #0065fc;
   align-items: center;
+  font-family: "Raleway-bold";
 }
 .anchor > svg {
   display: none;
@@ -68,9 +69,8 @@ nav > svg {
     z-index: 3;
     height: 60px;
     width: 100%;
-    border-bottom: 1px solid rgb(204, 204, 204);
-    background-color: rgba(255, 255, 255, 1);
-    /* backdrop-filter: blur(15px); */
+    border-bottom: 1px solid rgb(240, 240, 240);
+    background-color: #ffffff;
   }
   nav > svg {
     padding: 0;
@@ -91,7 +91,6 @@ nav > svg {
     flex-direction: column;
     transition: left 100ms;
     padding: 2rem 0 0 2rem;
-    border-left: 1px solid gray;
   }
   .anchor > svg {
     display: inline;
@@ -227,6 +226,11 @@ p {
     width: 100%;
     border-radius: 8px;
     justify-content: center;
+  }
+  .search-input > button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   .filter-container {
     height: fit-content;
@@ -486,6 +490,8 @@ p {
 }
 .activity-item > .activity-card-solo > .image-1 > h4 {
   margin: 0.2rem 0 0 0.5rem;
+  color: black;
+  font-family: "Raleway-bold";
 }
 .activity-item > .activity-card-duo {
   width: 16rem;
@@ -515,11 +521,41 @@ p {
   border-top-left-radius: 15px;
 }
 .activity-item > .activity-card-duo > .image-1 > h4 {
+  color: black;
+  font-family: "Raleway-bold";
   margin: 0.2rem 0 0 0.5rem;
 }
-@media (width <= 375px) {
-  #acitivities {
-    display: none;
+@media (width <= 435px) {
+  #activities {
+    padding: 0 1rem;
+    margin: 3rem 0;
+  }
+  .activity-item {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    flex-direction: column;
+  }
+  .activity-item > .activity-card-solo {
+    width: 100%;
+    height: 12rem;
+    display: flex;
+    flex-direction: column;
+  }
+  .activity-item > .activity-card-solo > .image-1 > img {
+    width: 100%;
+    height: 10rem;
+  }
+  .activity-item > .activity-card-duo {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .activity-item > .activity-card-duo > .image-1 > img {
+    width: 100%;
+    height: 10rem;
   }
 }
 
@@ -547,10 +583,26 @@ p {
 }
 
 @media (width <= 435px) {
-  #activities {
-    display: none;
-  }
   #foot {
-    display: none;
+    margin: 5rem 0 0 0;
+    padding: 0rem 1rem 2rem 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: #f2f2f2;
+  }
+
+  #foot > .lists {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .lists > a {
+    text-decoration: none;
+    color: #5f5f5f;
+    line-height: 2rem;
   }
 }
