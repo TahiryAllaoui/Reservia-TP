@@ -8,7 +8,7 @@ aHeberge.addEventListener("click", () => {
 // For Menu on mobile
 let nav = document.querySelector("nav");
 let anchor = document.querySelector(".anchor");
-let closeMenu = document.querySelector(".anchor h4");
+let closeMenu = document.querySelector(".anchor .close-menu");
 let body = document.querySelector("body");
 if (body.clientWidth < 435) {
   let svgs = document.createElement("div");
