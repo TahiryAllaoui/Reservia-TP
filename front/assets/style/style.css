@@ -228,7 +228,6 @@ p {
 .card > .note {
   margin: 0.5rem 0 0 0;
   display: flex;
-  gap: 0.5rem;
 }
 .card > .note > svg {
   width: 1rem;
@@ -293,7 +292,9 @@ p {
 .side-card > .side-note > .note {
   margin: 0.5rem 0 0 0;
   display: flex;
-  gap: 0.5rem;
+}
+.side-card > .side-note > .note > svg {
+  width: 1rem;
 }
 
 /* For Activities */
