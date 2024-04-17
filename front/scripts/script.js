@@ -42,3 +42,27 @@ if (body.clientWidth < 435) {
     anchor.style.boxShadow = "none";
   });
 }
+
+// for pop-up
+let inscripsButton = document.querySelector("#inscrips");
+let inscripsPopUp = document.querySelector("#inscrips-pop-up");
+let addingForm = document.getElementById("adding-from");
+let crossButtonForInscrips = document.querySelector("#cross");
+
+inscripsButton.addEventListener("click", () => {
+  inscripsPopUp.style.opacity = "1";
+  console.log("clicked");
+  inscripsPopUp.style.zIndex = "1";
+  inscripsPopUp.style.display = "flex";
+  inscripsPopUp.style.animation = "fadeIn 200ms";
+});
+crossButtonForInscrips.addEventListener("click", () => {
+  inscripsPopUp.style.animation = "fadeOut 200ms";
+  inscripsPopUp.style.zIndex = "-1";
+  inscripsPopUp.style.display = "none";
+});
+addingForm.addEventListener("submit", (e) => {
+  inscripsButton.style.zIndex = "-1";
+  inscripsButton.style.display = "none";
+  inscripsButton.style.animation = "fadeOut 200ms";
+});
