@@ -39,7 +39,7 @@
     <div class="popular-hotels">
       <?php for ($index = 0; $index < count($hotels); $index++) : ?>
         <?php if ($hotels[$index]->isPopular) { ?>
-          <a href=<?php echo "./components/reservation.php?index=" . $index ?> class="side-card">
+          <a href=<?php echo "./reservation.php?index=" . $index ?> class="side-card">
             <img src=<?php echo "./assets/images/hebergements/small/" . $hotels[$index]->image ?> alt=<?php echo $hotels[$index]->name ?>>
             <div class="side-note">
               <h4><?php echo $hotels[$index]->name ?></h4>

@@ -13,7 +13,7 @@
     </div>
     <div class="inscrips-container">
         <form id="adding-from" method="post" action="../back/controllers/inscription.php">
-            <p>Inscription</p>
+            <h2>Inscription</h2>
             <div>
                 <label for="name"> Nom:</label>
                 <input type="text" name="name" required>

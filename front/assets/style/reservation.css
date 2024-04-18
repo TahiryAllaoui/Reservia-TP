@@ -48,19 +48,22 @@ nav > svg {
   justify-content: center;
   gap: 2rem;
   padding: 3rem 3rem 0 3rem;
+  height: max-content;
 }
 .summary > h2 {
   margin: 0;
 }
 img {
   width: 40%;
+  height: 25rem;
   border-radius: 1rem;
 }
 .summary {
   display: flex;
   flex-direction: column;
   width: 40%;
-  justify-content: flex-start;
+  height: 25rem;
+  justify-content: space-between;
 }
 .note {
   margin: 0.5rem 0 0 0;
@@ -93,8 +96,8 @@ img {
   cursor: pointer;
 }
 .back {
-  border: 2px solid #d3d3d3;
-  color: #d3d3d3;
+  border: 2px solid #bdbdbd;
+  color: #bababa;
   transition: background-color 200ms;
 }
 .back:hover {

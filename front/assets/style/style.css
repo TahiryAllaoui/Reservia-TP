@@ -659,8 +659,10 @@ p {
   justify-content: flex-start;
   gap: 1rem;
 }
-#inscrips-pop-up > .inscrips-container > form > p {
-  text-align: center;
+#inscrips-pop-up > .inscrips-container > form > h2 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 #inscrips-pop-up > .inscrips-container > form > #file-container {
   display: flex;
