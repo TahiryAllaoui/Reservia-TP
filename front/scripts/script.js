@@ -51,10 +51,11 @@ let crossButtonForInscrips = document.querySelector("#cross");
 
 inscripsButton.addEventListener("click", () => {
   inscripsPopUp.style.opacity = "1";
-  console.log("clicked");
   inscripsPopUp.style.zIndex = "1";
   inscripsPopUp.style.display = "flex";
   inscripsPopUp.style.animation = "fadeIn 200ms";
+  anchor.style.left = "100%";
+  anchor.style.boxShadow = "none";
 });
 crossButtonForInscrips.addEventListener("click", () => {
   inscripsPopUp.style.animation = "fadeOut 200ms";
