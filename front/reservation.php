@@ -47,6 +47,7 @@ require('../back/hebergementData.php') ?>
                 <div class="reserver">Reserver</div>
             </div>
         </div>
+        <?php require('./components/reservationPopup.php') ?>
         <script src="./scripts/reservation.js"></script>
 </body>
 

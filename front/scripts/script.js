@@ -56,6 +56,7 @@ inscripsButton.addEventListener("click", () => {
   inscripsPopUp.style.animation = "fadeIn 200ms";
   anchor.style.left = "100%";
   anchor.style.boxShadow = "none";
+  console.log("anchor out");
 });
 crossButtonForInscrips.addEventListener("click", () => {
   inscripsPopUp.style.animation = "fadeOut 200ms";
