@@ -478,8 +478,8 @@ p {
   justify-content: space-between;
 }
 .activity-item > .activity-card-solo {
-  width: 15rem;
-  height: 25rem;
+  width: 13rem;
+  height: 20rem;
   display: flex;
   flex-direction: column;
   text-decoration: none;
@@ -503,8 +503,8 @@ p {
   font-family: "Raleway-bold";
 }
 .activity-item > .activity-card-duo {
-  width: 15rem;
-  height: 25rem;
+  width: 13rem;
+  height: 20rem;
   gap: 2rem;
   display: flex;
   flex-direction: column;
@@ -704,4 +704,27 @@ p {
   font-size: small;
   border: none;
   cursor: pointer;
+}
+@media (width <= 435px) {
+  #inscrips-pop-up {
+    flex-direction: column-reverse;
+    gap: 1rem;
+  }
+  #inscrips-pop-up > .cross-container {
+    width: 2rem;
+    border: 2px solid white;
+    height: 2rem;
+    border-radius: 50%;
+  }
+  #inscrips-pop-up > .cross-container > svg {
+    width: 20px;
+    cursor: pointer;
+  }
+  #inscrips-pop-up > .inscrips-container {
+    width: 90%;
+    height: 55%;
+  }
+  #inscrips-pop-up > .inscrips-container > form {
+    width: 80%;
+  }
 }
