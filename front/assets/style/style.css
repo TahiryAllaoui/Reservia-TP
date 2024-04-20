@@ -305,6 +305,7 @@ p {
   height: 8rem;
   border-top-right-radius: 15px;
   border-top-left-radius: 15px;
+  object-fit: cover;
 }
 .card > h4 {
   color: black;
@@ -368,6 +369,7 @@ p {
   height: 6rem;
   border-top-left-radius: 15px;
   border-bottom-left-radius: 15px;
+  object-fit: cover;
 }
 .side-card > .side-note {
   display: flex;
@@ -496,6 +498,7 @@ p {
   height: 23rem;
   border-top-right-radius: 15px;
   border-top-left-radius: 15px;
+  object-fit: cover;
 }
 .activity-item > .activity-card-solo > .image-1 > h4 {
   margin: 0.2rem 0 0 0.5rem;
@@ -528,6 +531,7 @@ p {
   height: 10rem;
   border-top-right-radius: 15px;
   border-top-left-radius: 15px;
+  object-fit: cover;
 }
 .activity-item > .activity-card-duo > .image-1 > h4 {
   color: black;
